@@ -69,12 +69,12 @@ The following steps were performed to clean and prepare the data for analysis:
 1. Loading Data: The data was loaded for further analysis in Power BI.
 2. Data Inspection: The structure and contents of each data frame were inspected to ensure consistency.
 3. Data Cleaning:
--	We transform the loaded data using Power Query.
--	We checked for duplicate and missing values in every column.
--	We detect the datatype of every column and change the datatype if necessary.
--	We also ensured all sales value were valid and verify if there are any negative values and zeros in ‘price per unit’, ‘unit sold’ column which may need correction.
+   -	We transform the loaded data using Power Query.
+   -	We checked for duplicate and missing values in every column.
+   -	We detect the datatype of every column and change the datatype if necessary.
+   -	We also ensured all sales value were valid and verify if there are any negative values and zeros in ‘price per unit’, ‘unit sold’ column which may need correction.
 4. Data Transformation:
-- Aggregated sales data to the required details (profit margin in percentage, sales, units sold)
+   - Aggregated sales data to the required details (profit margin in percentage, sales, units sold)
 
 ## Stage 4: Analyze 📈
 ### Data Insights 🔍
