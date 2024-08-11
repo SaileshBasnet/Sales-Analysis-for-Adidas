@@ -1,7 +1,7 @@
 # Sales Analysis for Adidas 📊
 
 ## Company Overview  🏢
-Company Name: Adidas
+Company Name: **Adidas**
 
 ### Background:
 <div align="justify"> Adidas is a globally recognized leader in the sportswear and athletic footwear industry. Established with a focus on innovation and quality, Adidas has expanded its product lines and market presence significantly over the years. The company operates a broad network of retail partners and maintains a strong global brand presence.</div>
@@ -18,7 +18,7 @@ As a Junior Data Analyst at Adidas, my main objective is to leverage the sales d
 
 In order process further steps, we follow these steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
 
-### **Data Analysis Process***  🔍
+### **Data Analysis Process** 🔍
 1. **Ask:** Define key questions to guide the analysis, focusing on product profitability, sales method performance, and geographic sales distribution.
 
 2. **Prepare:** Load and organize the Adidas sales dataset, ensuring data quality through cleaning and transformation.
@@ -33,12 +33,13 @@ In order process further steps, we follow these steps of the data analysis proce
 
 ### Detailed Steps
 ## Stage 1: Ask ❓
+The final list of questions to analyze are:
 1. Which product category contributes the most to overall profit, and how can we leverage this information to enhance our sales strategy?
 2. How does the performance of different sales methods (in-store, online, outlet) compare, and what strategies can we implement to improve the performance of the least profitable method?
 3. Which regions and states show the highest sales performance, and how can we tailor our marketing efforts to further boost sales in these high-performing areas?
 
 ## Stage 2: Prepare 🛠️
-<div align="justify"> For this analysis, we are using the Adidas Sales Dataset in United States [link of dataset](https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset/data) from year 2021 to 2022. After that, we extract the file and relocate it to the "Adidas_Sales_Analysis" folder. The csv file is now called "Adidas_US_Sales." To address any future accidents, we duplicate the folder and files to another folder.</div>
+For this analysis, we are using the Adidas Sales Dataset in United States [link of dataset](https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset/data) from year 2021 to 2022. After that, we extract the file and relocate it to the "Adidas_Sales_Analysis" folder. The csv file is now called "Adidas_US_Sales." To address any future accidents, we duplicate the folder and files to another folder.
 
 ### Metadata Description 🗃️
 The dataset includes the following fields:
@@ -65,14 +66,14 @@ The dataset includes the following fields:
 
 ## Stage 3: Process ⚙️
 The following steps were performed to clean and prepare the data for analysis:
-1.**Loading Data:** The data was loaded for further analysis in Power BI.
-2.**Data Inspection:** The structure and contents of each data frame were inspected to ensure consistency.
-3.**Data Cleaning:**
+1.Loading Data: The data was loaded for further analysis in Power BI.
+2.Data Inspection: The structure and contents of each data frame were inspected to ensure consistency.
+3.Data Cleaning:
 -	We transform the loaded data using Power Query.
 -	We checked for duplicate and missing values in every column.
 -	We detect the datatype of every column and change the datatype if necessary.
 -	We also ensured all sales value were valid and verify if there are any negative values and zeros in ‘price per unit’, ‘unit sold’ column which may need correction.
-4.**Data Transformation:**
+4.Data Transformation:
 - Aggregated sales data to the required details (profit margin in percentage, sales, units sold)
 
 ## Stage 4: Analyze 📈
@@ -82,6 +83,7 @@ The following steps were performed to clean and prepare the data for analysis:
 
 ![image](https://github.com/user-attachments/assets/98053a7c-1b1e-4131-96bb-56b8dd6d29ba)
 
+Findings from the plot:
 - Adidas has achieved a total sale of $899.90 million.
 - The total profit is $332.1 million with profit margin of 36.9%
 - There is total 9648 retailers.
@@ -90,6 +92,7 @@ The following steps were performed to clean and prepare the data for analysis:
 
 ![image](https://github.com/user-attachments/assets/4080d8e0-e267-43f6-ac3b-fa5117790071)
 
+Findings from the plot:
 - Men's Street Footwear is the leading category with around 593,000 units sold, accounting for 23.94% of total sales.
 - Men's Athletic Footwear and Women's Apparel follow, with around 436,000 units (17.57%) and around 434,000 units (17.5%) sold respectively.
 - Men’s Apparel is the least sold item with around 307,000 units (12.37%).
@@ -98,6 +101,7 @@ The following steps were performed to clean and prepare the data for analysis:
 
 ![image](https://github.com/user-attachments/assets/152ab41e-0978-4452-b950-f11d7e6c95fa)
 
+Findings from the plot:
 - Men’s Street Footwear generate highest sales amount with over 208 million with profit margin of 39.7%.
 - Women’s Apparel and Women’s Athletic Footwear follow, with over 179 million (profit margin of 38.3%) and 106 million (profit margin of 36.6%).
 - Men’s Athletic Footwear generates substantial revenue, but it has lowest profit margin of 33.7% with total sales over 153 million compared to others.
@@ -106,6 +110,7 @@ The following steps were performed to clean and prepare the data for analysis:
 
 ![image](https://github.com/user-attachments/assets/4576d820-e086-4de9-911f-cd452587ee62)
 
+Findings from the plot:
 - The sales peak in Q3 at 265 million followed by 218 million in Q4. This suggests a season trend.
 - Q2 peaks at 228 million and Q1 at 189 million which is also the least sales quarter.
 
@@ -113,6 +118,7 @@ The following steps were performed to clean and prepare the data for analysis:
 
 ![image](https://github.com/user-attachments/assets/cdf1dab1-3bbc-4f05-9ff2-b1d6ac637b9a)
 
+Findings from the plot:
 - New York, California and Florida are the top-performing states in terms of sales.
 - North Carolina and Louisiana are the least-performing states in terms of sales.
   
@@ -120,13 +126,15 @@ The following steps were performed to clean and prepare the data for analysis:
 > These screenshots represent only a small sample of the total data available.
 
 ![image](https://github.com/user-attachments/assets/38256b89-c8c7-4692-b137-6e696406ef63)
-  
+
+Findings from the plot:  
 - The units sold are well-distributed across regions, with the West leading at 686,985 units and Midwest with least at 391,337 units.
 
 ### Retailer Performance:
 
 ![image](https://github.com/user-attachments/assets/638f4c67-80dd-48ac-84b6-178daac10f53)
 
+Findings from the plot:
 - Retailer ‘Foot Locker’ gains highest total profit of around 10.9 million with a profit margin 38.9% which is located in Charleston.
 - West Gear and Sports Direct follow, with over 9.8 million (profit margin of 29.5%) in San Francisco and over 9 million (profit margin of 52.3%) in Birmingham which is also highest profit margin.
 - Retailer ‘Foot Locker’, located at Knoxville, generate low profit around 122 thousand with profit margin of 38.2%.
@@ -138,12 +146,14 @@ The following steps were performed to clean and prepare the data for analysis:
 
 ![image](https://github.com/user-attachments/assets/051cd7a3-12f2-499d-83a7-3900e9253e39)
 
+Findings from the plot:
 - The majority used sales method is in-store sales (39.63%), followed by outlet sales (32.85%) and online sales (27.52%).
 
 ### Sales by Retailer
 
 ![image](https://github.com/user-attachments/assets/e84cdd32-01b1-483b-9299-98b92d4781f6)
 
+Findings from the plot:
 - West Gear (243 million) and Foot Locker (220 million) are the leading retailers by total sales, followed by Sports Direct (182 million) and Kohl’s (102 million).
 - Amazon (78 million) and Walmart (75 million) are the least retailers by total sales
 
@@ -173,10 +183,10 @@ Here is the sample of dashboard:
 
 The dashboard provides a comprehensive view of Adidas’ sales performance, highlighting key areas of strength and opportunities for growth. By leveraging these insights, Adidas can refine its strategies to drive higher sales, improve profitability, and enhance customer satisfaction.
 
-You can download and access the dashboard from the following link: [Power BI Dashboard](link)
+You can download and access the dashboard from the following link: [Power BI Dashboard](https://github.com/SaileshBasnet/Sales-Analysis-for-Adidas/blob/main/Adidas%20Sales%20Analysis.pbix)
 
 ## Stage 6: Act 🚀
-### Recommendations & Suggestions:
+### Recommendations & Suggestions
 After analyzing everything we conclude to this decision for further improvement:
 
 **Enhance Sales Strategy:**
