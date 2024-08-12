@@ -189,24 +189,26 @@ You can download and access the dashboard from the following link: [Power BI Das
 ### Recommendations & Suggestions
 After analyzing everything we conclude to this decision for further improvement:
 
-**Enhance Sales Strategy:**
+- **Enhance Sales Strategy:**
 Focus marketing efforts on top-performing product categories like Women's Apparel and Men's Street Footwear to leverage their high profit margins and sales figures.
 
-**Improve Sales Method Performance:**
+- **Improve Sales Method Performance:**
 Analyze the underperformance of the online sales method and develop targeted strategies such as online promotions, better user experience, and exclusive online product offerings to boost online sales.
 
-**Tailor Marketing Efforts:**
+- **Tailor Marketing Efforts:**
 Concentrate marketing campaigns in high-performing states like New York, California, and Florida.
 
-**Customer Engagement:**
+- **Customer Engagement:**
 Enhance or introduce loyalty programs to encourage repeat purchases and increase customer retention.
 
-**Local Events and Sponsorships:**
+- **Local Events and Sponsorships:**
 Participate in or sponsor local events to increase brand visibility and connect with the community.
 
 ### Next Steps 📅
 - **Implement Recommendations:** Begin executing targeted marketing campaigns for high-profit product categories (e.g., Men's Street Footwear and Women's Apparel). Focus on enhancing the online shopping experience and local marketing efforts in high-performing states (New York, California, Florida).
+  
 - **Track Performance:** Monitor KPIs such as sales growth, profit margins, and conversion rates on an ongoing basis, with regular updates. Adjust strategies based on performance data.
+  
 - **Continuous Improvement:** Regularly review marketing and operational strategies based on data and feedback. Make monthly reviews and quarterly adjustments to optimize results and address emerging issues
 
 ## Executive Summary 📝
